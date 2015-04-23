@@ -1,4 +1,4 @@
-## Introductions
+## Introduction
 
 The library is into the lib directory.
 
@@ -23,7 +23,7 @@ The library is able to open nested modal dialogs, alerts and confirm.
 
 The source is here: [sgDialog.1.0.0.zip]({This}sgDialog.1.0.0.zip).
 
-![Screenshot]({This}sample.png)
+![Screenshot](sample.png)
 
 ### Notes
 
