@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- saved from url=(0016)http://localhost -->
+<html>
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+		
+	<script type="text/javascript" src="sample/utils/angular.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="sample/utils/bootstrap.min.css"></link>
+	<link type="text/css" rel="stylesheet" href="sample/utils/fonts/fonts.css"></link>
+	
+	<link type="text/css" rel="stylesheet" href="lib/sgDialogService.1.0.0.min.css"></link>
+	<script type="text/javascript" src="lib/sgDialogService.1.0.0.min.js"></script>
+	
+	<script type="text/javascript" src="sample/app.js"></script>
+</head>
+<body ng-app="myApp">
+
+
+	<div style="padding: 15px 15px 15px">
+	<div class="panel panel-info" >
+		<div class="panel-heading"><h3 id="panel-title" class="panel-title">sgDialogService Sample</h3></div>
+		<div class="panel-body" ng-controller="myController">
+			Dialog title: <input type="text" ng-model="dialogTitle"/><br>
+			<button ng-click="openDialog(dialogTitle)">Open Dialog</button></br>
+			Callback result: "{{callbackResult}}"<br>
+			<button ng-click="openAlert('Alert content')">Open Alert</button></br>
+			<button ng-click="openConfirm('Confirm content')">Open Confirm</button></br>
+			Confirm result: {{confirmResult}}
+		</div>
+	</div>
+</body>
+</html>

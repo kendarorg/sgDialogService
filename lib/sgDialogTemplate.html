@@ -1,0 +1,16 @@
+<div class='modal-dialog' >
+	<div class='modal-content '>
+		<div class='modal-header noselect'>
+			<button type='button' class='close' ng-click='#closeModal#' aria-label='Close'><span aria-hidden='true'>&times;</span></button>
+			<h4 class='modal-title' >#modalTitle#</h4>
+		</div>
+		<div class='modal-body'>
+			#modalBody#
+		</div>
+		<div class='modal-footer' >
+			<button ng-repeat='button in modalButtons' type='button' 
+				class='btn {{button.class}}'  
+				ng-click='button.action()' ng-disabled="button.disabled()">{{button.text}}</button>
+		</div>
+	</div>
+</div>

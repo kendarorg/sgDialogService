@@ -1,0 +1,9 @@
+<div ng-controller="dialogController">
+	<form novalidate name="callbackForm" id="callback-form" role="form" >
+	The field must be changed and is mandatory!!<br>
+	For callback: <input type="text" ng-model="forCallback" required /><br>
+	Sub Dialog Value: <input type="text" ng-model="subDialogValue" required /><br>
+	<button ng-click="openSubDialog(subDialogValue)">Open Dialog</button></br>
+	<button ng-click="openAlert('Alert content')">Open Alert</button></br>
+	</form>
+</div>
