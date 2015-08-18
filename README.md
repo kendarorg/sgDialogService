@@ -69,10 +69,11 @@ on the view takes the precedence
 "CLOSE" is passed as parameter.
 * title: (optional) The name of the variable on the dialog controller scope that will contain the title of the 
 dialog, defaults to "title"
-* data: (optional): The data passed to the child scope of the controller and view specified. The variables will be copyed
+* data: (optional) The data passed to the child scope of the controller and view specified. The variables will be copyed
 directly on the child scope
-* scope: (optional): The scope that will be used in the dialog. If specified the data is ignored, and a controller can't
+* scope: (optional) The scope that will be used in the dialog. If specified the data is ignored, and a controller can't
 be declared
+* width: (optional, default to 800): The width in pixel of the dialog.
 
 <pre>
 	var modalInstance = sgDialogService.openModal({

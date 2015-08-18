@@ -65,3 +65,7 @@
 .modalHiddenOverlay {
 	position: absolute;
 }
+
+.modal-body-extra {
+	overflow:hidden;
+}

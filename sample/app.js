@@ -11,7 +11,8 @@ myApp.controller('myController',['sgDialogService','$scope',function(sgDialogSer
 		sgDialogService.openModal({
 				templateUrl:'sample/dialogContent.html',
 				data:{fromParent:dialogParam},
-				callback: function(result){ $scope.callbackResult=result;}
+				callback: function(result){ $scope.callbackResult=result;},
+				width:$scope.width
 			});
 		}
 		

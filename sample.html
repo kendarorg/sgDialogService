@@ -9,8 +9,8 @@
 	<link type="text/css" rel="stylesheet" href="sample/utils/bootstrap.min.css"></link>
 	<link type="text/css" rel="stylesheet" href="sample/utils/fonts/fonts.css"></link>
 	
-	<link type="text/css" rel="stylesheet" href="lib/sgDialogService.1.0.0.min.css"></link>
-	<script type="text/javascript" src="lib/sgDialogService.1.0.0.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="lib/sgDialogService.1.0.0.css"></link>
+	<script type="text/javascript" src="lib/sgDialogService.1.0.0.js"></script>
 	
 	<script type="text/javascript" src="sample/app.js"></script>
 </head>
@@ -22,6 +22,7 @@
 		<div class="panel-heading"><h3 id="panel-title" class="panel-title">sgDialogService Sample</h3></div>
 		<div class="panel-body" ng-controller="myController">
 			Dialog title: <input type="text" ng-model="dialogTitle"/><br>
+			Dialog size: <input type="text" ng-model="width"/><br>
 			<button ng-click="openDialog(dialogTitle)">Open Dialog</button></br>
 			Callback result: "{{callbackResult}}"<br>
 			<button ng-click="openAlert('Alert content')">Open Alert</button></br>
