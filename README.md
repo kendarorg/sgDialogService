@@ -146,6 +146,10 @@ To show a confirm
 
 ### History
 
+* v 1.0.1
+	* Set width on modal dialog
+	* Bug fixing
+	
 * v 1.0.0, First Release
 	* Nested modal dialogs
 	* Alert and confirm
